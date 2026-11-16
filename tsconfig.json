@@ -1,0 +1,10 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "noEmit": true, "jsx": "react-jsx", "target": "ES2022", "module": "ESNext",
+    "lib": ["esnext", "dom", "dom.iterable"], "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true, "resolveJsonModule": true, "skipLibCheck": true,
+    "strict": false, "types": ["vite/client"],
+    "baseUrl": ".", "paths": { "@/*": ["./src/*"] }
+  }
+}

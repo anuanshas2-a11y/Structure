@@ -1,0 +1,10 @@
+﻿node_modules/
+dist/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+backend/.env
+backend/db.sqlite3
+backend/test_mail.py
